@@ -15,6 +15,8 @@ class Car:
         self.color = color
 
     def drive(self):
-        print(f"You are driving {self.color} {self.model}")
+        return f"You are driving {self.color} {self.model}"
 
 car1 = Car("BMW", "Black")
+
+print(car1.drive())

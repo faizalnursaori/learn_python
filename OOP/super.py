@@ -22,7 +22,7 @@ class Square(Shape):
         self.width = width
 
     def describe(self):
-        print(f"It is a circle with an area of {self.width * self.width}")
+        print(f"It is a square with an area of {self.width * self.width}")
         super().describe()
 
 class Triangle(Shape):
@@ -32,7 +32,7 @@ class Triangle(Shape):
         self.height = height
 
     def describe(self):
-        print(f"It is a circle with an area of {self.width * self.height / 2}")
+        print(f"It is a triangle with an area of {self.width * self.height / 2}")
         super().describe()
 
 circle = Circle(color="Red", is_filled=True, radius=5)

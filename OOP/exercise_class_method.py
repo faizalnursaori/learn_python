@@ -21,7 +21,7 @@ class Hewan:
     jumlah = 0
 
     @classmethod
-    def tambah(cls):
+    def tambah(cls): # Makenya cls bukan self
         cls.jumlah += 1
         
 class Kucing(Hewan):
